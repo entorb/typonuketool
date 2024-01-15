@@ -254,7 +254,7 @@ sub findDoppelteWoerter {
     } # while
 
     # wort1 wort2 wort3 wort4 wort1 wort2 wort3 wort4
-    while ($line =~ m/(((\b[[:alpha:]]+)\s+([[:alpha:]]+)\s+([[:alpha:]]+)\s+([[:alpha:]]+)\b)\+s\2\b)/ig) {
+    while ($line =~ m/(((\b[[:alpha:]]+)\s+([[:alpha:]]+)\s+([[:alpha:]]+)\s+([[:alpha:]]+)\b)\s+\2\b)/ig) {
       my $sTreffer = $1;
       $hits++; if ($hits == 1) {printResultsHeader}
       printResultLine($lineNr,$sTreffer,$line);
