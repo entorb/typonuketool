@@ -1,0 +1,5 @@
+libs/
+
+.DS_Store
+index.pl
+upload.pl
