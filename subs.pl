@@ -849,7 +849,7 @@ sub findTorbensLieblingsfehler {
         ,    'the ones'                                      # those
         ,    'the these'
         ,    'the affect'                                    # the effect
-        ,    'therefor'
+        ,    'therefor'                                      # cspell:ignore therefor
         ,    'theses'
         ,    'they was'
         ,    'this data'                                     # these data
