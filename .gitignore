@@ -1,0 +1,6 @@
+.cspellcache
+.DS_Store
+/libs/
+cspell-words-missing.txt
+index.pl
+upload.pl
