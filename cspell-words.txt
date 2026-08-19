@@ -183,6 +183,7 @@ seien
 sein
 selbe
 setlocale
+shfmt
 shrinked
 sich
 sicherstellen
